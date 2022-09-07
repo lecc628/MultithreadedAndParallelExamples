@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadExample_01", "Multith
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Thread", "Thread", "{9285758E-96CB-4030-8C90-FD92610CF45B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadExample_02", "ThreadExample_02\ThreadExample_02.csproj", "{80DC7C29-FDAF-4029-839E-AEA6F731581D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,17 @@ Global
 		{D5DD71BC-E937-441C-85E6-E8A8ABF51ADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5DD71BC-E937-441C-85E6-E8A8ABF51ADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5DD71BC-E937-441C-85E6-E8A8ABF51ADF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80DC7C29-FDAF-4029-839E-AEA6F731581D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80DC7C29-FDAF-4029-839E-AEA6F731581D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80DC7C29-FDAF-4029-839E-AEA6F731581D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80DC7C29-FDAF-4029-839E-AEA6F731581D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D5DD71BC-E937-441C-85E6-E8A8ABF51ADF} = {9285758E-96CB-4030-8C90-FD92610CF45B}
+		{80DC7C29-FDAF-4029-839E-AEA6F731581D} = {9285758E-96CB-4030-8C90-FD92610CF45B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {02E04B0B-9E32-49C9-9B27-16ED110C8619}
