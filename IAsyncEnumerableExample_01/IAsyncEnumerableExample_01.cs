@@ -12,6 +12,9 @@ namespace IAsyncEnumerableExamples
             await EnumerateSyncStream();
 
             Console.WriteLine("\n-----------------------------------------------------------------------\n");
+
+            Console.WriteLine("Using enumerable async stream:\n");
+            await EnumerateAsyncStream();
         }
 
         public static async Task EnumerateSyncStream()
@@ -33,6 +36,23 @@ namespace IAsyncEnumerableExamples
             }
 
             return list;
+        }
+
+        public static async Task EnumerateAsyncStream()
+        {
+            await foreach (var value in GetValuesAsyncUsingIAsyncEnumerable())
+            {
+                Console.WriteLine(value);
+            }
+        }
+
+        private static async IAsyncEnumerable<int> GetValuesAsyncUsingIAsyncEnumerable()
+        {
+            for (var i = 1; i <= 4; ++i)
+            {
+                await Task.Delay(1000);
+                yield return i;
+            }
         }
     }
 }
