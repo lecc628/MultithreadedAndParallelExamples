@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountdownEventExample_01", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancelableCountdownEvent", "CancelableCountdownEvent\CancelableCountdownEvent.csproj", "{62C40611-42C1-4FF4-B181-865500533DE2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BlockingCollection", "BlockingCollection", "{C4B23BC9-56DB-47CD-B8CC-B08A14675C1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockingCollectionDemo", "BlockingCollectionDemo\BlockingCollectionDemo.csproj", "{C9B585BE-DDFC-4072-864F-DC6C9E5B638B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +71,10 @@ Global
 		{62C40611-42C1-4FF4-B181-865500533DE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62C40611-42C1-4FF4-B181-865500533DE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62C40611-42C1-4FF4-B181-865500533DE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9B585BE-DDFC-4072-864F-DC6C9E5B638B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9B585BE-DDFC-4072-864F-DC6C9E5B638B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9B585BE-DDFC-4072-864F-DC6C9E5B638B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9B585BE-DDFC-4072-864F-DC6C9E5B638B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -80,6 +88,7 @@ Global
 		{D88384DE-F07B-4E48-B4A0-B04DF5A68ED7} = {B98BB644-4D98-49D5-9658-9C57CF1EE8CA}
 		{CEE407F8-909B-4D1A-B55D-A84AD60292FC} = {015D1E00-905B-406B-8A09-D0A909E4D476}
 		{62C40611-42C1-4FF4-B181-865500533DE2} = {015D1E00-905B-406B-8A09-D0A909E4D476}
+		{C9B585BE-DDFC-4072-864F-DC6C9E5B638B} = {C4B23BC9-56DB-47CD-B8CC-B08A14675C1E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {02E04B0B-9E32-49C9-9B27-16ED110C8619}
