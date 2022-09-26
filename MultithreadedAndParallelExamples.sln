@@ -27,6 +27,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CountdownEvent", "Countdown
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountdownEventExample_01", "CountdownEventExample_01\CountdownEventExample_01.csproj", "{CEE407F8-909B-4D1A-B55D-A84AD60292FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancelableCountdownEvent", "CancelableCountdownEvent\CancelableCountdownEvent.csproj", "{62C40611-42C1-4FF4-B181-865500533DE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,10 @@ Global
 		{CEE407F8-909B-4D1A-B55D-A84AD60292FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEE407F8-909B-4D1A-B55D-A84AD60292FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEE407F8-909B-4D1A-B55D-A84AD60292FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62C40611-42C1-4FF4-B181-865500533DE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62C40611-42C1-4FF4-B181-865500533DE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62C40611-42C1-4FF4-B181-865500533DE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62C40611-42C1-4FF4-B181-865500533DE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,6 +79,7 @@ Global
 		{2DCD74C1-9A81-461C-9919-F1BE6C46D9BE} = {71AEC9D3-98E3-4C20-B776-05BECC4297D6}
 		{D88384DE-F07B-4E48-B4A0-B04DF5A68ED7} = {B98BB644-4D98-49D5-9658-9C57CF1EE8CA}
 		{CEE407F8-909B-4D1A-B55D-A84AD60292FC} = {015D1E00-905B-406B-8A09-D0A909E4D476}
+		{62C40611-42C1-4FF4-B181-865500533DE2} = {015D1E00-905B-406B-8A09-D0A909E4D476}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {02E04B0B-9E32-49C9-9B27-16ED110C8619}
