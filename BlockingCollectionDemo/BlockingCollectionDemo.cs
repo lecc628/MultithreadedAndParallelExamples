@@ -9,23 +9,30 @@ namespace BlockingCollectionExamples
     {
         public static async Task Main()
         {
-            Console.WriteLine($"{nameof(AddTakeDemo)}:\n");
+            WriteTitle(nameof(AddTakeDemo));
             await AddTakeDemo.BC_AddTakeCompleteAdding();
 
             Console.WriteLine("\n-----------------------------------------------------------------------\n");
 
-            Console.WriteLine($"{nameof(TryTakeDemo)}:\n");
+            WriteTitle(nameof(TryTakeDemo));
             TryTakeDemo.BC_TryTake();
 
             Console.WriteLine("\n-----------------------------------------------------------------------\n");
 
-            Console.WriteLine($"{nameof(FromToAnyDemo)}:\n");
+            WriteTitle(nameof(FromToAnyDemo));
             FromToAnyDemo.BC_FromToAny();
+
+            Console.WriteLine("\n-----------------------------------------------------------------------\n");
+
+            WriteTitle(nameof(ConsumingEnumerableDemo));
+            await ConsumingEnumerableDemo.BC_GetConsumingEnumerable();
 
             Console.WriteLine("\n-----------------------------------------------------------------------\n");
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
         }
+
+        private static void WriteTitle(string className) => Console.WriteLine($"{className}:\n");
     }
 
     public class AddTakeDemo
@@ -146,6 +153,47 @@ namespace BlockingCollectionExamples
             {
                 bc.Dispose();
             }
+        }
+    }
+
+    public class ConsumingEnumerableDemo
+    {
+        // Demonstrates:
+        //      BlockingCollection<T>.Add()
+        //      BlockingCollection<T>.CompleteAdding()
+        //      BlockingCollection<T>.GetConsumingEnumerable()
+        public static async Task BC_GetConsumingEnumerable()
+        {
+            Func<int> f1 = () => 3;
+            Func<int> f2 = () => { return 3; };
+
+            using BlockingCollection<int> bc = new();
+
+            // Kick off a producer task.
+            var producerTask = Task.Run(async () =>
+            {
+                for (var i = 0; i < 10; ++i)
+                {
+                    bc.Add(i);
+                    Console.WriteLine($"Producing: {i}");
+
+                    await Task.Delay(100);  // Sleep 100 ms between adds.
+                }
+
+                // Need to do this to keep foreach below from hanging.
+                bc.CompleteAdding();
+            });
+
+            // Now consume the blocking collection with foreach.
+            // Use bc.GetConsumingEnumerable() instead of just bc because the
+            // former will block waiting for completion and the latter will
+            // simply take a snapshot of the current state of the underlying collection.
+            foreach (var item in bc.GetConsumingEnumerable())
+            {
+                Console.WriteLine($"Consuming: {item}");
+            }
+
+            await producerTask;  // Allow task to complete cleanup.
         }
     }
 }
