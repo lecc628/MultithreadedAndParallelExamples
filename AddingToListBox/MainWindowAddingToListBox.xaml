@@ -1,12 +1,33 @@
-﻿<Window x:Class="AddingToListBox.MainWindow"
+﻿<Window x:Class="BackgroundWorkerExamples.MainWindowAddingToListBox"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:AddingToListBox"
+        xmlns:local="clr-namespace:BackgroundWorkerExamples"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Adding to ListBox" MinWidth="500" MinHeight="500" Width="800" Height="850">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
 
+        <ListBox x:Name="listBox" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0 0 0 10"/>
+
+        <StackPanel Grid.Row="1">
+            <ProgressBar x:Name="addingProgressBar" Height="25"/>
+            <StackPanel Orientation="Horizontal" Margin="10">
+                <Label Content="Status:"/>
+                <Label x:Name="statusLabel" Margin="-5 0 0 0"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button x:Name="startButton" Content="Start" Width="75" Height="25"
+                        Margin="10"
+                        Click="StartButton_Click"/>
+                <Button x:Name="cancelButton" Content="Cancel" Width="75" Height="25"
+                        Margin="0 10 10 10" IsEnabled="False"
+                        Click="CancelButton_Click"/>
+            </StackPanel>
+        </StackPanel>
     </Grid>
 </Window>
