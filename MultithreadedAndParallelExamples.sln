@@ -33,6 +33,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BlockingCollection", "Block
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockingCollectionDemo", "BlockingCollectionDemo\BlockingCollectionDemo.csproj", "{C9B585BE-DDFC-4072-864F-DC6C9E5B638B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackgroundWorker", "BackgroundWorker", "{4E4EB4B0-36BE-4DB2-B8E7-6B5001BEAA3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddingToListBox", "AddingToListBox\AddingToListBox.csproj", "{0CCCD4E0-EBCA-4E8E-AACD-DA73730B4BF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,10 @@ Global
 		{C9B585BE-DDFC-4072-864F-DC6C9E5B638B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9B585BE-DDFC-4072-864F-DC6C9E5B638B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9B585BE-DDFC-4072-864F-DC6C9E5B638B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CCCD4E0-EBCA-4E8E-AACD-DA73730B4BF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CCCD4E0-EBCA-4E8E-AACD-DA73730B4BF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CCCD4E0-EBCA-4E8E-AACD-DA73730B4BF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CCCD4E0-EBCA-4E8E-AACD-DA73730B4BF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -89,6 +97,7 @@ Global
 		{CEE407F8-909B-4D1A-B55D-A84AD60292FC} = {015D1E00-905B-406B-8A09-D0A909E4D476}
 		{62C40611-42C1-4FF4-B181-865500533DE2} = {015D1E00-905B-406B-8A09-D0A909E4D476}
 		{C9B585BE-DDFC-4072-864F-DC6C9E5B638B} = {C4B23BC9-56DB-47CD-B8CC-B08A14675C1E}
+		{0CCCD4E0-EBCA-4E8E-AACD-DA73730B4BF5} = {4E4EB4B0-36BE-4DB2-B8E7-6B5001BEAA3E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {02E04B0B-9E32-49C9-9B27-16ED110C8619}
