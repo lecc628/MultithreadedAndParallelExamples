@@ -3,43 +3,43 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33717.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadExample_01", "MultithreadedAndParallelExamples\ThreadExample_01.csproj", "{D5DD71BC-E937-441C-85E6-E8A8ABF51ADF}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Thread", "Thread", "{9285758E-96CB-4030-8C90-FD92610CF45B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadExample_02", "ThreadExample_02\ThreadExample_02.csproj", "{80DC7C29-FDAF-4029-839E-AEA6F731581D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadExample_02", "ThreadExample_02\ThreadExample_02.csproj", "{80DC7C29-FDAF-4029-839E-AEA6F731581D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadExample_03", "ThreadExample_03\ThreadExample_03.csproj", "{867285A3-93F7-4CB6-A752-049D90DF7CE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadExample_03", "ThreadExample_03\ThreadExample_03.csproj", "{867285A3-93F7-4CB6-A752-049D90DF7CE8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task", "Task", "{7215454B-4174-4BC7-8C71-C2A57B74DAD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TasksSequencelyAndNotSequencely_01", "TasksSequencelyAndNotSequencely_01\TasksSequencelyAndNotSequencely_01.csproj", "{7C5B5E4D-F0FF-4FC4-9DFE-FE0ABC8CB142}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TasksSequencelyAndNotSequencely_01", "TasksSequencelyAndNotSequencely_01\TasksSequencelyAndNotSequencely_01.csproj", "{7C5B5E4D-F0FF-4FC4-9DFE-FE0ABC8CB142}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IAsyncEnumerable", "IAsyncEnumerable", "{71AEC9D3-98E3-4C20-B776-05BECC4297D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IAsyncEnumerableExample_01", "IAsyncEnumerableExample_01\IAsyncEnumerableExample_01.csproj", "{2DCD74C1-9A81-461C-9919-F1BE6C46D9BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IAsyncEnumerableExample_01", "IAsyncEnumerableExample_01\IAsyncEnumerableExample_01.csproj", "{2DCD74C1-9A81-461C-9919-F1BE6C46D9BE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cancellation", "Cancellation", "{B98BB644-4D98-49D5-9658-9C57CF1EE8CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancellationExample_01", "CancellationExample_01\CancellationExample_01.csproj", "{D88384DE-F07B-4E48-B4A0-B04DF5A68ED7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CancellationExample_01", "CancellationExample_01\CancellationExample_01.csproj", "{D88384DE-F07B-4E48-B4A0-B04DF5A68ED7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CountdownEvent", "CountdownEvent", "{015D1E00-905B-406B-8A09-D0A909E4D476}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountdownEventExample_01", "CountdownEventExample_01\CountdownEventExample_01.csproj", "{CEE407F8-909B-4D1A-B55D-A84AD60292FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountdownEventExample_01", "CountdownEventExample_01\CountdownEventExample_01.csproj", "{CEE407F8-909B-4D1A-B55D-A84AD60292FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancelableCountdownEvent", "CancelableCountdownEvent\CancelableCountdownEvent.csproj", "{62C40611-42C1-4FF4-B181-865500533DE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CancelableCountdownEvent", "CancelableCountdownEvent\CancelableCountdownEvent.csproj", "{62C40611-42C1-4FF4-B181-865500533DE2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BlockingCollection", "BlockingCollection", "{C4B23BC9-56DB-47CD-B8CC-B08A14675C1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockingCollectionDemo", "BlockingCollectionDemo\BlockingCollectionDemo.csproj", "{C9B585BE-DDFC-4072-864F-DC6C9E5B638B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlockingCollectionDemo", "BlockingCollectionDemo\BlockingCollectionDemo.csproj", "{C9B585BE-DDFC-4072-864F-DC6C9E5B638B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackgroundWorker", "BackgroundWorker", "{4E4EB4B0-36BE-4DB2-B8E7-6B5001BEAA3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddingToListBox", "AddingToListBox\AddingToListBox.csproj", "{0CCCD4E0-EBCA-4E8E-AACD-DA73730B4BF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddingToListBox", "AddingToListBox\AddingToListBox.csproj", "{0CCCD4E0-EBCA-4E8E-AACD-DA73730B4BF5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lock", "Lock", "{3652BAEB-B6E1-4C9D-BCD3-303F21D8C8A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Account", "Account\Account.csproj", "{2140A7EC-E110-4721-9168-BF3887C89A7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Account", "Account\Account.csproj", "{2140A7EC-E110-4721-9168-BF3887C89A7B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadExample_01", "..\ThreadingExamples\ThreadExample_01\ThreadExample_01.csproj", "{6858643F-8832-453E-989F-66482C35386D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,10 +47,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D5DD71BC-E937-441C-85E6-E8A8ABF51ADF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D5DD71BC-E937-441C-85E6-E8A8ABF51ADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D5DD71BC-E937-441C-85E6-E8A8ABF51ADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D5DD71BC-E937-441C-85E6-E8A8ABF51ADF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{80DC7C29-FDAF-4029-839E-AEA6F731581D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{80DC7C29-FDAF-4029-839E-AEA6F731581D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80DC7C29-FDAF-4029-839E-AEA6F731581D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -91,12 +87,15 @@ Global
 		{2140A7EC-E110-4721-9168-BF3887C89A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2140A7EC-E110-4721-9168-BF3887C89A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2140A7EC-E110-4721-9168-BF3887C89A7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6858643F-8832-453E-989F-66482C35386D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6858643F-8832-453E-989F-66482C35386D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6858643F-8832-453E-989F-66482C35386D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6858643F-8832-453E-989F-66482C35386D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{D5DD71BC-E937-441C-85E6-E8A8ABF51ADF} = {9285758E-96CB-4030-8C90-FD92610CF45B}
 		{80DC7C29-FDAF-4029-839E-AEA6F731581D} = {9285758E-96CB-4030-8C90-FD92610CF45B}
 		{867285A3-93F7-4CB6-A752-049D90DF7CE8} = {9285758E-96CB-4030-8C90-FD92610CF45B}
 		{7C5B5E4D-F0FF-4FC4-9DFE-FE0ABC8CB142} = {7215454B-4174-4BC7-8C71-C2A57B74DAD8}
@@ -107,6 +106,7 @@ Global
 		{C9B585BE-DDFC-4072-864F-DC6C9E5B638B} = {C4B23BC9-56DB-47CD-B8CC-B08A14675C1E}
 		{0CCCD4E0-EBCA-4E8E-AACD-DA73730B4BF5} = {4E4EB4B0-36BE-4DB2-B8E7-6B5001BEAA3E}
 		{2140A7EC-E110-4721-9168-BF3887C89A7B} = {3652BAEB-B6E1-4C9D-BCD3-303F21D8C8A4}
+		{6858643F-8832-453E-989F-66482C35386D} = {9285758E-96CB-4030-8C90-FD92610CF45B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {02E04B0B-9E32-49C9-9B27-16ED110C8619}
