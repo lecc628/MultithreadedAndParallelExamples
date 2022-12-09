@@ -41,6 +41,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Account", "Account\Account.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadExample_01", "..\ThreadingExamples\ThreadExample_01\ThreadExample_01.csproj", "{6858643F-8832-453E-989F-66482C35386D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mutex", "Mutex", "{70D03F2B-3FC8-44D7-A7B7-1D43B09737B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutexExample_01", "MutexExample_01\MutexExample_01.csproj", "{8D486847-66D2-4921-BD7A-EAB462E22B04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +95,10 @@ Global
 		{6858643F-8832-453E-989F-66482C35386D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6858643F-8832-453E-989F-66482C35386D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6858643F-8832-453E-989F-66482C35386D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D486847-66D2-4921-BD7A-EAB462E22B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D486847-66D2-4921-BD7A-EAB462E22B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D486847-66D2-4921-BD7A-EAB462E22B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D486847-66D2-4921-BD7A-EAB462E22B04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -107,6 +115,7 @@ Global
 		{0CCCD4E0-EBCA-4E8E-AACD-DA73730B4BF5} = {4E4EB4B0-36BE-4DB2-B8E7-6B5001BEAA3E}
 		{2140A7EC-E110-4721-9168-BF3887C89A7B} = {3652BAEB-B6E1-4C9D-BCD3-303F21D8C8A4}
 		{6858643F-8832-453E-989F-66482C35386D} = {9285758E-96CB-4030-8C90-FD92610CF45B}
+		{8D486847-66D2-4921-BD7A-EAB462E22B04} = {70D03F2B-3FC8-44D7-A7B7-1D43B09737B7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {02E04B0B-9E32-49C9-9B27-16ED110C8619}
