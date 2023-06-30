@@ -57,6 +57,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interlocked", "Interlocked"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterlockedExample_01", "InterlockedExample_01\InterlockedExample_01.csproj", "{B38FA58E-3D5C-4052-BFEA-6E9BA8093836}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SynchronizedMethod", "SynchronizedMethod", "{CBC8B6FF-7217-4A5E-9FA6-21382B253F8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynchronizedMethodExample_01", "SynchronizedMethodExample_01\SynchronizedMethodExample_01.csproj", "{A390F2AD-8ACB-4314-9E39-E2714511B4EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +127,10 @@ Global
 		{B38FA58E-3D5C-4052-BFEA-6E9BA8093836}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B38FA58E-3D5C-4052-BFEA-6E9BA8093836}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B38FA58E-3D5C-4052-BFEA-6E9BA8093836}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A390F2AD-8ACB-4314-9E39-E2714511B4EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A390F2AD-8ACB-4314-9E39-E2714511B4EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A390F2AD-8ACB-4314-9E39-E2714511B4EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A390F2AD-8ACB-4314-9E39-E2714511B4EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -143,6 +151,7 @@ Global
 		{FA60E655-B223-4CC0-80C0-330A9A9B8666} = {4361BFE8-9BD4-4854-8D62-8AE847DCE2B6}
 		{7B2C03A8-E1D1-4D36-A191-96890A191413} = {39688C21-623E-4679-8BD4-3C31FFF7CA0E}
 		{B38FA58E-3D5C-4052-BFEA-6E9BA8093836} = {11B71B14-3962-41EB-B937-141108FEAC34}
+		{A390F2AD-8ACB-4314-9E39-E2714511B4EE} = {CBC8B6FF-7217-4A5E-9FA6-21382B253F8D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {02E04B0B-9E32-49C9-9B27-16ED110C8619}
